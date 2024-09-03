@@ -1,6 +1,6 @@
-const preloader =document.querySelector("[data-preloader]")
+const preloader =document.querySelector("[data-preloader]");
 
-window.addEventListener("load",()=>{
+window.addEventListener("load",() =>{
   preloader.classList.add("remove");
 });
 
